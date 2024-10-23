@@ -1,0 +1,105 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  20px 40px;
+}
+
+:where(.css-dev-only-do-not-override-1hpnbz2).ant-form-item
+  .ant-form-item-label
+  > label {
+  color: white !important;
+}
+.login-form {
+  display: block;
+  justify-items: center;
+  align-content: center;
+  background-color: #131212;
+  height: 490px;
+  max-width: 420px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.form-title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #d4af37;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-input{
+  border:none;
+  padding: 5px 5px;
+  border-radius: none !important;
+}
+
+.login-button {
+  background-color: #d4af37; 
+  color: #000;
+  font-weight:700;
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.login-button:hover {
+  background-color: #a67c00 !important;
+}
+.forgot-password,
+.signup-text {
+  font-size: 20px;
+  color: #d4af37;
+background: none;
+text-align: center;
+margin: 5px 0px;
+/* margin-top: 10px; */
+}
+
+.link-text {
+  color: #d4af37;
+  cursor: pointer;
+  background: none !important;
+text-decoration: none;
+border: none;
+font-size: 20px;
+/* padding: 6px 0px; */
+}
+.link-text:hover {
+  text-decoration: underline;
+}
+.link-button {
+  color: #d4af37;
+  cursor: pointer;
+  background: none !important;
+text-decoration: none;
+border: none;
+font-size: 22px;
+padding: 6px 0px;
+}
+.login-image{
+  background-color: black;
+  height: 529px;
+  width: 610px;
+  border-radius: 0px 20px 20px 0px;
+  display: block;
+  justify-items: center;
+  align-content: center;
+}
+.hero-image {
+  width: 100%;
+  max-width: 280px;
+  height: auto;  
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+
+

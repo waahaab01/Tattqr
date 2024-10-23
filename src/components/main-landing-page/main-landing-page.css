@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.main-landing-page{
+    padding-top: 50px;
+}
+
+.landing-page-hero-text{
+    position: absolute;
+    top: 0;
+    left: 3%;
+    transform: translateY(50%);
+    display: block;
+    width: 45%;
+}
+.landing-page-hero-image img{
+    height: auto;
+    width: 100%;
+}
+.hero-heading{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 52px;
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+}
+.hero-heading span {
+    background: linear-gradient(180deg, #CF8A08 100%, #BF7901 100%,#FFEC53 100%, #DBAB1C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-content{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 0;
+    width: 85%;
+}
+.hero-button{
+    margin: 0;
+    margin-top: 40px;
+    padding: 10px 12px;
+    height: 52px;
+    width: 162px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    background: linear-gradient(180deg, #CF8A08 100%, #BF7901 100%,#FFEC53 100%, #DBAB1C 100%);
+    color: white;
+}

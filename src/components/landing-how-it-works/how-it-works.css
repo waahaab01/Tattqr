@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.how-it-works-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 
+    inset 0px 15px 15px -10px #CF8A08, /* First shadow color */
+    inset 0px 25px 15px -10px #000000;
+    
+}
+.section-heading{
+    font-family: 'Poppins';
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+}
+.section-text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.section-text span {
+    background: linear-gradient(180deg, #CF8A08 100%, #BF7901 100%,#FFEC53 100%, #DBAB1C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+        border-radius: 15px;
+    
+}
+.section-card-items{
+    width: 321px;
+    height: 126px;
+    padding: 20px 20px 10px 20px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #CF8A08;
+    margin: 10px;
+    background: linear-gradient(45deg, #554a15 15%,#0a070740 65%, #000000 100%);
+}
+
+.card-head{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.card-head .card-image{
+    height: auto;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #050504;
+    border-radius: 12px;
+}
+.card-head .card-text h6{
+    font-size: 18px;
+    /* margin-left: 30px; */
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0 0 0 10px;
+}
+
+.card-body-text{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+
+}
+.section{
+    margin-top: 50px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #00000040 5%,#615518 60%, #000000 100%);
+}
+.section-left h1{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 36px;
+}
+.section-left h1 span{
+    background: linear-gradient(180deg, #CF8A08 100%, #BF7901 100%,#FFEC53 100%, #DBAB1C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-left button{
+    margin: 0;
+    padding: 10px 12px;
+    height: 52px;
+    width: 162px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    background: linear-gradient(180deg, #CF8A08 100%, #BF7901 100%,#FFEC53 100%, #DBAB1C 100%);
+    color: white;
+}
+
+.section-right .big-qr{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+.section-right .small-qr{
+    height: 100px;
+    width: 100px;
+}
